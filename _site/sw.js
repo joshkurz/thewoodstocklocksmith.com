@@ -1,10 +1,10 @@
-var CACHE_NAME = "locksmith-20190514233430";
+var CACHE_NAME = "locksmith-20190516002648";
 
 self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "/css/pixyll.css?201905142334",
+        "/css/pixyll.css?201905160026",
         "/"
       ]);
     })

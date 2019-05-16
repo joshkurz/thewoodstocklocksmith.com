@@ -9,9 +9,9 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:not(.nohover):hover,
+a:not(.nohover):focus,
+a:not(.nohover):active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
