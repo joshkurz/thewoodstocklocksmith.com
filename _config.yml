@@ -8,7 +8,14 @@ url:         "https://thewoodstocklocksmith.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - residential.md
+ - commercial.md
+ - auto.md
  - fleet.md
+
+location: Woodstock
+cta_background: http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg
+cta_small_image: http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg
 
 # Google services
 google_verification:
