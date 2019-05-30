@@ -28,6 +28,12 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/automotive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/commercial/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
@@ -35,6 +41,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/residential/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/thanks/</loc>

@@ -5,4 +5,4 @@ permalink: /about/
 tags: about
 ---
 
-This is the woodstock car locksmith about page.
+This is the {{site.location}} car locksmith about page.
