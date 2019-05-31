@@ -8,13 +8,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {% endif %}
 	{% if site.facebook_comments %}
 		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId={{ site.facebook_appid }}";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+		<script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId={{ site.facebook_appid }}";
+        fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 	{% endif %}
 
   <div class="site-wrap">
@@ -22,9 +24,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="center px3 py4 white bg-gray bg-cover bg-center overflow-auto"
-        style="background-image: url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg)">
-        <h1 class="h1 h0-responsive caps mt4 mb0 regular">Atlanta Locksmith</h1>
-        <p class="h3">The Best Woodstock Locksmith There Is</p>
+        style="background-image: url({{ site.cta_background}})">
+        <h1 class="h1 h0-responsive caps mt4 mb0 regular">{{ site.location }} Locksmith</h1>
+        <p class="h3">Your {{ site.location }} Locksmith Service </p>
         <div class="sm-col sm-col-6 md-col-6 lg-col-6">
             <a href="tel:+1-855-321-6736">
                     <h3 class="fg-white">
@@ -33,7 +35,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </h3>
             </a>
             <div class="col-12 border">
-                <img class="fit" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg" />
+                <img class="fit" src="{{ site.cta_small_image}}" />
             </div>
         </div>
         <div class="sm-col sm-col-6 md-col-6 lg-col-6">
@@ -43,11 +45,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
             </div>
             <ol class="left-align home-list">
-                <li style="width: 90%">$50 Car Lockouts. Price may vary depending upon location</li>
-                <li style="width: 90%">Can cut keys for 95% of vehicles</li>
+                <li style="width: 90%">{{ site.location }} Car Lockouts. We can unlock any Car.</li>
+                <li style="width: 90%">Can cut keys for Any Vehicle.</li>
                 <li style="width: 90%">Residential or Commercial re-keys, installations and more...</li>
-                <li style="width: 90%">Low voltage Security Installations</li>
-                <li style="width: 90%">Atlanta and Kennesaw Safe Movers</li>
+                <li style="width: 90%">Atlanta Fleet Locksmith work is available for any type of vehivle. </li>
+                <li style="width: 90%">We can program any type of Proxy Keys or Remote Keys</li>
             </ol>
         </div>
       </div>
