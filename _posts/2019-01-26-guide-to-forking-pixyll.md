@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Professional Locksmith Services in {{site.location}}
+title: Professional Locksmith Services in Woodstock
 date: 2019-01-26 19:22
 summary: Locksmith Services offered in {{site.location}}
 categories: jekyll pixyll
