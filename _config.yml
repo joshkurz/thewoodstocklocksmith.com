@@ -14,8 +14,8 @@ header_pages:
  - fleet.md
 
 location: Woodstock
-cta_background: http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg
-cta_small_image: http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder.svg
+cta_background: ""
+cta_small_image: /images/open_sesame_logo-300x239.png
 
 # Google services
 google_verification:
